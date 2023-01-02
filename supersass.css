@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(151, 230, 230);
+}
+
+.put {
+  background-color: aquamarine;
+}
+
+#good {
+  background-color: forestgreen;
+  color: rgb(14, 4, 4);
+  font-style: arial;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  font-size: xx-large;
+}
+
+#notGood {
+  background-color: red;
+  color: rgb(14, 4, 4);
+  font-style: arial;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  font-size: xx-large;
+}
+
+/*# sourceMappingURL=supersass.css.map */

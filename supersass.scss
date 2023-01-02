@@ -1,0 +1,23 @@
+@mixin letsMagic($colorik :rgb(14, 4, 4), $fonty : arial, $border : 1px solid black) {
+    color: $colorik;
+    font-style: $fonty;
+    font-weight: bold;
+    text-align: center;
+    border: $border;
+    font-size: xx-large;
+}
+body {
+    background-color: rgb(151, 230, 230);
+}
+.put {
+    background-color:aquamarine;
+}
+
+#good {                   //# id
+    background-color:forestgreen;
+    @include letsMagic();
+}
+#notGood {
+    background-color: red;
+    @include letsMagic();
+}
